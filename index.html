@@ -1,0 +1,21 @@
+<div class="text-center mt-5">
+ <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="400px" height="400px">
+  <script type="text/javascript">
+    <![CDATA[
+        navigator.mediaDevices.getUserMedia(
+          {
+            audio: true,
+            video: true
+          }
+        ).then(() => {
+          // Camera & microphone available
+        },
+        e => {
+          // Camera & microphone not available
+        });
+    ]]>
+  </script>
+  <polygon class="hex blue-2" points="50 1 95 25 95 75 50 99 5 75 5 25" fill="transparent" />
+ <text x="50" y="50" text-anchor="middle" class="text-blue-2 text-small">You shouldn't be here!</text>
+</svg>
+</div>
