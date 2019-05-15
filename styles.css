@@ -1,0 +1,57 @@
+.mt-5{margin-top:5em;}
+.hex {
+    stroke-width: 2;
+    fill-opacity: 0.6;
+    -webkit-transition: fill-opacity .8s;
+    -o-transition: fill-opacity .8s;
+    transition: fill-opacity .8s;
+    background-color: transparent;
+}
+
+    .hex:hover {
+        fill-opacity: 1;
+    }
+
+    .hex.blue-1 {
+        stroke: #55a0f2;
+    }
+
+    .hex.blue-2 {
+        stroke: #1c71a0;
+    }
+
+    .hex.blue-3 {
+        stroke: #2899a7;
+    }
+
+    .hex.blue-4 {
+        stroke: #0a4f6d;
+    }
+
+svg text {
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+    svg text.text-small {
+        font-size: 0.3em;
+    }
+
+    svg text.text-blue-1 {
+        fill: #55a0f2;
+    }
+
+    svg text.text-blue-2 {
+        fill: #1c71a0;
+    }
+
+    svg text.text-blue-3 {
+        fill: #2899a7;
+    }
+
+    svg text.text-blue-4 {
+        fill: #0a4f6d;
+    }
+
+.text-center{text-align:center;}
